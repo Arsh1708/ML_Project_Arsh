@@ -2,6 +2,20 @@ HOUSE PRICE ESTIMATION AND CLUSTERING CHALLENEGE
 
 **#House Price Estimation using K-Nearest Neighbors (KNN)**
 
+**Instructions to run the code**
+
+test.csv and train.csv are the raw datasets given.
+
+sample_submission contains the SalePrice of the test data which was already given.
+
+After running KNN(K Nearest Neighbours) a new file SalePrice_Output.csv is created which contains the predicted SalePrice.
+
+Clustering is performed on the training data which creates a csv file named cluster.csv. The last column of this csv file has cluster numbers against each row.
+
+To implement  Gradio,a separate Gradio.ipynb file is created.
+
+reduced_train_data.csv and reduced_test_data.csv contain the training and testing data filtered to the 5 most important attributes.
+
 **Loading the data :**
 Assign the csv files of training and test data to variables hence creating dataframes.
 
@@ -45,17 +59,3 @@ Select 5-6 attributes which pose a major role in determining sale price of the h
 Prepare the training and test datasets based on this.
 
 Apply KNN and take input of these attributes using gradio interface.
-
-**Instructions to run the code**
-
-test.csv and train.csv are the raw datasets given.
-
-sample_submission contains the SalePrice of the test data which was already given.
-
-After running KNN(K Nearest Neighbours) a new file ouput.csv is created which contains the predicted SalePrice.
-
-Clustering is performed on the training data which creates a csv file named sample.csv. The last column of this csv file has cluster numbers against each row.
-
-To implement  Gradio,a separate Gradio.ipynb file is created.
-
-gradio_train2.csv and gradio_test.csv contain the training and testing data filtered to the 5 most important attributes.
