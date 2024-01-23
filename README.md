@@ -6,9 +6,9 @@ HOUSE PRICE ESTIMATION AND CLUSTERING CHALLENEGE
 
 test.csv and train.csv are the raw datasets given.
 
-sample_submission contains the SalePrice of the test data which was already given.
+sample_submission.csv contains the SalePrice of the test data which was already given.
 
-After running KNN(K Nearest Neighbours) a new file SalePrice_Output.csv is created which contains the predicted SalePrice.
+After running KNN(K Nearest Neighbours) a new file SalePrice_Output.xlsx is created which contains the predicted SalePrice.
 
 Clustering is performed on the training data which creates a csv file named cluster.csv. The last column of this csv file has cluster numbers against each row.
 
