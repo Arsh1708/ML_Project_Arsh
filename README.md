@@ -14,7 +14,7 @@ Clustering is performed on the training data which creates a csv file named clus
 
 To implement  Gradio,a separate Gradio.ipynb file is created.
 
-reduced_train_data.csv and reduced_test_data.csv contain the training and testing data filtered to the 5 most important attributes.
+gradio_train2.csv and gradio_test.csv contain the training and testing data filtered to the 5 most important attributes.
 
 **Loading the data :**
 Assign the csv files of training and test data to variables hence creating dataframes.
